@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Transformer</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/three.js"></script> <!-- three.min.js version 0.140.2 -->
+        <script src="js/main-script.js"></script>
+        <style>
+            #controls-box {
+              position: absolute;
+              top: 10px;
+              left: 10px;
+              background: rgba(0, 0, 0, 0.7);
+              color: white;
+              padding: 12px 16px;
+              border-radius: 8px;
+              font-family: Arial, sans-serif;
+              font-size: 14px;
+              line-height: 1.4em;
+              max-width: 200px;
+              z-index: 10; /* ensures it stays above the canvas */
+            }
+
+            #controls-box h3 {
+              margin: 0 0 8px 0;
+              font-size: 16px;
+              color: #ffcc00;
+            }
+        </style>
+    </head>
+    <body> 
+        <!-- Controls box -->
+        <div id="controls-box">
+          <h3>Controls</h3>
+          <p><b>Arrows</b> – Move trailer</p>
+          <p><b>1–5</b> – Change cameras</p>
+          <p><b>6</b> – Toggle wireframe</p>
+          <p><b>Q / A</b> – Rotate feet</p>
+          <p><b>W / S</b> – Rotate legs</p>
+          <p><b>E / D</b> – Move arms</p>
+          <p><b>R / F</b> – Rotate head</p>
+	  <p><b>Q W E R</b> – Truck Mode</p>
+	  <p><b>A S D F</b> – Prime Mode</p>
+        </div>
+
+        <!-- Three.js app -->
+        <script>
+            init();
+            animate();
+        </script>
+    </body>
+</html>
