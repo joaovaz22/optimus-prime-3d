@@ -20,6 +20,13 @@ The project was developed as a way to explore **computer graphics, 3D modeling w
 
 ---
 
+---
+
+## 📸 Demo
+![Optimus Prime Demo](demo/optimus-demo.gif)
+
+---
+
 ## ⌨️ Controls
 
 | Key | Action |
@@ -83,12 +90,6 @@ The project was developed as a way to explore **computer graphics, 3D modeling w
      ├── three.js        # Three.js library
      └── main-script.js  # Project code (Optimus Prime)
 ```
-
----
-
-## 📸 Demo
-
----
 
 ## 📌 Notes
 
