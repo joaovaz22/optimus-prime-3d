@@ -23,7 +23,7 @@ The project was developed as a way to explore **computer graphics, 3D modeling w
 ---
 
 ## 📸 Demo
-![Optimus Prime Demo](demo/optimus-prime-demo.gif)
+![Optimus Prime Demo](demo/optimus-demo.gif)
 
 ---
 
